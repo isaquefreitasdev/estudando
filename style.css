@@ -1,0 +1,23 @@
+.container {
+  /* FLEXBOX */
+  display: flex;
+
+  background-color: darkgray;
+  height: 290px;
+  color: white;
+}
+.r1 {
+  background-color: red;
+  flex-grow: 1;
+}
+.r2 {
+  background-color: blue;
+  flex-grow:3;
+}
+.r3 {
+  background-color: green;
+  flex-grow: 1;
+}
+.rect {
+  height: 100px;
+}
