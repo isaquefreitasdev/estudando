@@ -1,23 +1,30 @@
 .container {
-  /* FLEXBOX */
-  display: flex;
-
-  background-color: darkgray;
-  height: 290px;
+  /* GRID */
   color: white;
+  display: grid;
+  padding: 10px;
+  background-color: gray;
+  grid-template-rows:auto auto ;
+  grid-template-columns:2fr 2fr 2fr  ;
+  /* grid-row-gap:10px ;
+  grid-column-gap: 5px; */
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+
 }
 .r1 {
   background-color: red;
-  flex-grow: 1;
+  /* order: 2; */
+  
 }
 .r2 {
   background-color: blue;
-  flex-grow:3;
 }
 .r3 {
   background-color: green;
-  flex-grow: 1;
 }
 .rect {
+  width: 100px;
   height: 100px;
 }
