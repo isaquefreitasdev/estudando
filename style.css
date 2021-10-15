@@ -24,28 +24,27 @@
 }
 .rect {
   /*  width: 100px; */
-  height: 200px; 
+  /* height: 200px;  */
 }
 .item1{
-  grid-area: a1;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
-.item2{
-  grid-area: a2;
 
+.item2{
+  grid-column-start: 2;
+  grid-column-end:5
 }
 .item3{
-  grid-area: a3;
-
+  grid-column-start: 1;
+  grid-row-start: 2;
 }
 .item4{
-  grid-area: a4;
 
 }
 .item5{
-  grid-area: a5;
   background-color: yellow;
 }
 .item6{
-  grid-area: a6;
 
 }
