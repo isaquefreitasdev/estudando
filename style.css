@@ -1,9 +1,15 @@
 @keyframes color {
-  from {
-    background-color: red;
+  0% {
+    width: 100px;
+    background-color: rgb(144, 37, 37);
   }
-  to {
-    background-color: blue;
+  50% {
+    width: 150px;
+    background-color:rgb(59, 150, 4)
+  }
+  100% {
+    background-color:green;
+    width: 200px;
   }
 }
 
@@ -12,5 +18,7 @@
   height: 200px;
   border-style: solid;
   animation-name: color;
-  animation-duration: 3s;
+  animation-duration:2s;
+  animation-iteration-count: 3;
+  animation-direction: alternate; 
 }
